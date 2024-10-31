@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 import random
+
 
 def generate_random_number(min_value, max_value):
     """
@@ -14,6 +14,7 @@ def generate_random_number(min_value, max_value):
     """
     return random.randint(min_value, max_value)
 
+
 def choose_operator():
     """
     Choose a random mathematical operator.
@@ -22,6 +23,7 @@ def choose_operator():
     - str: A random operator ('+', '-', or '*').
     """
     return random.choice(['+', '-', '*'])
+
 
 def generate_problem(num1, num2, operator):
     """
@@ -45,6 +47,7 @@ def generate_problem(num1, num2, operator):
         answer = num1 * num2
     
     return problem_statement, answer
+
 
 def math_quiz():
     """
@@ -81,7 +84,7 @@ def math_quiz():
 
     print(f"\nGame over! Your score is: {score}/{total_questions}")
 
+
 if __name__ == "__main__":
     math_quiz()
 
->>>>>>> origin/main
